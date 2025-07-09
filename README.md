@@ -34,5 +34,8 @@ Packet Capture
 
 Follow TCP Stream
 
-## Summary
-This lab showed how Wireshark reveals network-level RDP activity. Even though payloads are encrypted, connection patterns help detect suspicious login attempts.
+## Key Takeaways
+- Network traffic analysis can reveal connection attempts even if payloads are encrypted.
+- RDP uses TCP port 3389 by default; monitoring this port is critical for detecting brute force or lateral movement attempts.
+- Wireshark’s “Follow TCP Stream” is useful for examining session flow, even when data is encrypted.
+- This lab reinforced how endpoint activity translates into observable network events.
